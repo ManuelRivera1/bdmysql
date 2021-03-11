@@ -1,0 +1,12 @@
+CREATE TABLE `crud` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(150) NOT NULL,
+	`direccion` VARCHAR(150) NOT NULL,
+	`telephone` VARCHAR(150) NOT NULL,
+	`estado` VARCHAR(25) NOT NULL,
+	INDEX `Índice 1` (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=3
+;
